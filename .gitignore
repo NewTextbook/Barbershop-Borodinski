@@ -1,6 +1,7 @@
 font
 img
-htmlhintrc
-editorconfig
+.htmlhintrc
+.editorconfig
+.gitignore
 README.md
-/normalize.css
+normalize.css
