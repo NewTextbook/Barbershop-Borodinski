@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="интернет-магазин, барбершоп, стрижки">
+  <meta name="description" content="Лучший барбершоп Бородинский.">
+  <link rel="shortcut icon" href="img/razor-fav-icon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Барбершоп Бородинский</title>
+</head>
+
+<body>
+
+  <!--Блок навигации сайта-->
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-navigation logo_item" href="/index.html"> <img src="img/item-logo.svg" width="111" height="24"
+          alt="Логотип барбершопа" srcset=""></a>
+      <ul class="main-navigation__list site-list">
+        <li class="site-list__item">
+          <a href="#!">Информация</a>
+        </li>
+        <li class="site-list__item">
+          <a href="#!">Новости</a>
+        </li>
+        <li class="site-list__item">
+          <a href="#!">Прайс-лист</a>
+        </li>
+        <li class="site-list__item_current">
+          <a href="#!">Магазин</a>
+        </li>
+        <li class="site-list__item">
+          <a href="#!">Контакты</a>
+        </li>
+      </ul>
+      <ul class="main-navigation__list user-list">
+        <li class="user-list__item ">
+          <a class="user-list__login" href="#!">Вход</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Блок "Основное содержание сайта"-->
+  <main class="care-products container">
+    <h1 class="page-title">Средства для ухода</h1>
+    <ul class="breadcrumbs">
+      <li>
+        <a href="#!">Главная</a>
+      </li>
+      <li>
+        <a href="#!">Магазин</a>
+      </li>
+      <li>
+        <a class="breadcrumbs-current" href="#!">Средства для ухода</a>
+      </li>
+    </ul>
+
+    <!--Блок "фильтр товаров"-->
+    <section class="filters">
+      <h2 class="visialli hidden">Фильтр товаров</h2>
+      <form action="https://echo.htmlacademy.ru" method="get">
+        <fieldset>
+          <legend>Производители:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input__filter-input-checkbox" type="checkbox"
+                name="baxter-of-california" id="filter-baxter-of-california" checked>
+              <label for="filter-baxter-of-california"></label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input__filter-input-checkbox" type="checkbox" name="mr-natty"
+                id="filter-mr-natty">
+              <label for="filter-mr-natty"></label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input__filter-input-checkbox" type="checkbox" name="suavecito"
+                id="filter-suavecito" checked>
+              <label for="filter-suavecito"></label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input__filter-input-checkbox" type="checkbox" name="malin-goetz"
+                id="filter-malin-goetz">
+              <label for="filter-malin-goetz"></label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input__filter-input-checkbox" type="checkbox" name="murrays"
+                id="filter-murrays">
+              <label for="filter-murrays"></label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input__filter-input-checkbox" type="checkbox" name="american-crew"
+                id="filter-american-crew" checked>
+              <label for="filter-american-crew"></label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <!--Блок "фильтр группы товаров"-->
+        <fieldset>
+          <legend>Группы товаров:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group"
+                id="filter-shave" value="shaving">
+              <label for="filter-shave">Бритвенные принадлежности</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group"
+                id="filter-care" value="hair-care" checked>
+              <label for="filter-care">Средства для ухода</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group"
+                id="filter-accessories" value="accessories">
+              <label for="filter-accessories">Аксессуары</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button class="filter-button button" type="submit">Показать</button>
+      </form>
+
+    </section>
+
+    <!--Блок "Каталог товаров"-->
+    <section>
+
+    </section>
+  </main>
+</body>
+
+</html>
